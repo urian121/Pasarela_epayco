@@ -96,45 +96,11 @@
 
 
 
-    <?php
-    $precio = "50.000";
-    $cantidad ="1";
-    $descrip ="Cursos de Ingles";
-     ?>
-    <div>
-        <h4>Implementado Pasarela de Epayco</h4>
-     <img src="producto.png" alt="">
-     <br>
-     <span><?php echo $precio; ?>$ </span>
-     <p><?php echo $descrip; ?></p>
 
-
-
-<form>
-    <?php echo "
-    <script src='https://checkout.epayco.co/checkout.js'
-        data-epayco-key='38f8e9cee71dd30fc10eb4b26fe30a69'
-        class='epayco-button'
-        data-epayco-amount='$precio'
-        data-epayco-tax='0'
-        data-epayco-tax-base='10'
-        data-epayco-name='$descrip'
-        data-epayco-description='$descrip'
-        data-epayco-currency='usd'
-        data-epayco-country='CO'
-        data-epayco-test='true'
-        data-epayco-external='false'
-        data-epayco-response='http://www.ipavisual.com'
-        data-epayco-confirmation='ipavisual.com'
-        data-epayco-button='https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/boton_carro_de_compras_epayco6.png'>
-    </script>" ?>
-</form>
-</div>
 
 
 <script  src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="active.js" type="text/javascript"></script>
-
 <script type="text/javascript">
 $('#newuser').hide();
 
